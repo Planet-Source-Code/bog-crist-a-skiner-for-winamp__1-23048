@@ -1,0 +1,54 @@
+
+---------------------------------------------------------------
+WinSkinMaker   by Lucian Bogdan Cristache  , May 2001
+
+ You have a royalty-free right to use, modify, reproduce and distribute
+ the WinSkinMaker in any way you find useful.
+---------------------------------------------------------------
+
+
+
+Steps for creating a skin.
+
+1.Find your Winamp\Skin\  directory.
+    (This is necessary only for the first time you use the program.)
+    Click File->Find Skin Directory.When you find the directory doubleclick on it
+    to expand itself then click Close.
+2.Click File->Load to load a picture.The picture must be at least 276 x 348 pixels.
+   It is recommended that the picture not to be  too bright or too dark !
+3.Scroll the picture to choose the area which will be transformed in a skin.
+4.Type in the first textbox the name which will apear in the title bar.
+   The same text will apear in the second textbox but if you want to save
+   the skin under another name you can edit separately the text in the second
+   textbox.You can position the text in the title bar by adding or deleting blanks
+   in the first textbox.
+5.Now you can press Preview or directly Save.
+    (The preview is just to give you an idea, is not really a preview.)
+   If you get an error just try again including step 1.
+6.Open Winamp and choose your skin from the skin list.
+7.Return to step 2 if you want.
+
+
+The OptionButton groups  on the main form are there only to show you how easy it is 
+to make further improvements of the program in order to be more customizable.
+Just try different options and you will see the point. Also I must tell you that the skins
+are not actually complete since the program doesn't makes the file "text.bmp" and also 
+there are not personalized cursors. But this is not a very  big problem and I hope you can 
+resolve it. I include also two files "region.txt" and "viscolor.txt" which you can add manualy in 
+the folders of your skins to see the result,but this is not necessary.
+
+More about "region.txt": the file has two parts, one for the main part of Winamp
+           and the other for the equalizer.Each part is a sequence of numbers which are
+           the coordinates of the points that will be transparent when you load the skin.
+           Each point is given by two numbers (e.g. : the point in the top left corner is 0,0).
+More about "viscolor.txt":this file contains informations about the colors of the spectruml analyzer.
+                 Each line represents a color in the RGB code.
+	    e.g. : the first two lines are the color of the background, the 23-rd line is the color of
+		the peaks etc. 
+	
+
+
+In the project is included a Denise Richards wallpaper (1024*768) on which I
+tested the program during the design.Consider it as a bonus for downloading this program.
+
+Thank you for downloading this program !
